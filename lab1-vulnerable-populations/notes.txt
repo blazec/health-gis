@@ -1,0 +1,43 @@
+Find the correlation coefficients between the prevalence of COPD and the following
+SES variables: per65over (I), per19under (H), per65uplivealone (K), perlessthanHS (Q) ,
+medincpretax (L) , and perMinority (V).
+
+
+========================
+
+Diabetes risk factors:
+- Youth (under 20) are low risk. Only 0.25% of youth diagnosed with diabetes in America (http://www.diabetes.org/diabetes-basics/statistics/)
+- Minorities are higher risk (http://www.diabetes.ca/how-you-can-help/advocate/why-federal-leadership-is-essential/diabetes-statistics-in-canada)
+- Low income (personal opinion)
+- Recent immigrants
+
+Correlations in Excel:
+0.584685086	Minorities and Diabetes Prevalence 20 and up
+0.320382965	Low income and diabetes prevalence 20 and up
+0.552084469	Immigrant and diabetes prevalence 20 and up
+-0.400070322	Univesity grad and diabetes prevalence 20 and up
+0.395532676	Unemployed and diabetes prevalence 20 and up
+
+Coefficient of Determination (r^2)
+(http://www.biddle.com/documents/bcg_comp_chapter2.pdf)
+0.34185664979 minorities
+0.10264524426 low income
+0.30479726091 immigrant
+0.16005626254 univ grad
+0.15644609778 unemployed
+
+
+For index, want:
+Minorities -> 0
+Unemployed -> 0
+Univ grad - 1
+
+Univ grad - max: 75.2, min: 9.6
+Minorities - max: 94, min: 8.5
+Unemployed - min: 4 max: 15.5
+Low income - max: 64.6, min: 4
+
+Weights we want based on coefficient of determination
+minorities = 0.565
+low income = 0.170
+univ grad = 0.265
