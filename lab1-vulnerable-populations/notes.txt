@@ -4,6 +4,11 @@ medincpretax (L) , and perMinority (V).
 
 
 ========================
+For COPD:
+r2 for univ and copd prevalence approx = .29 (normalized = .9)
+r2 for 65 up living alone approx = .033 (normalized = .1)
+
+
 
 Diabetes risk factors:
 - Youth (under 20) are low risk. Only 0.25% of youth diagnosed with diabetes in America (http://www.diabetes.org/diabetes-basics/statistics/)
