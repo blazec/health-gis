@@ -22,6 +22,7 @@ Correlations in Excel:
 0.552084469	Immigrant and diabetes prevalence 20 and up
 -0.400070322	Univesity grad and diabetes prevalence 20 and up
 0.395532676	Unemployed and diabetes prevalence 20 and up
+0.244873 Youth below 20
 
 Coefficient of Determination (r^2)
 (http://www.biddle.com/documents/bcg_comp_chapter2.pdf)
